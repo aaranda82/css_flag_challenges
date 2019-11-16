@@ -1,21 +1,141 @@
+.flagContainer{
+  height: 20vmin;
+  width: 36vmin;
+  border: 1px solid black;
+}
+.yellowBackground{
+  background-color: yellow;
+}
+.blueBackground{
+  background-color: blue;
+}
+.redBackground{
+  background-color: red;
+}
+.whiteBackground{
+  background-color: white;
+}
+.greenBackground{
+  background-color: green;
+}
+.orangeBackground{
+  background-color: orange;
+}
+
 /* Indonesia */
+#indonesia .section{
+  height:50%;
+}
 
 /* Colombia */
+#colombia .section{
+  height: 50%;
+}
 
 /* Ireland */
+#ireland{
+  /* font-size: 0px; */
+  display: flex;
+}
+#ireland >.thirdFlagSection {
+  /*display:inline-block;
+  width: 33.33%;
+  height: 100%;*/
+  width: 100%;
+}
 
 /* France */
+#france{
+  display: flex;
+  background-color: white;
+}
+#france > .thirdFlagSection{
+  width: 100%;
+}
+#france > .thirdFlagSection:nth-child(1){
+  background-color: blue;
+}
+#france > .thirdFlagSection:nth-child(3){
+  background-color: red;
+}
 
 /* Benin */
+#benin{
+  display: flex;
+}
+#benin > .thirdFlagSection{
+height: 100%;
+width: 33.33%;
+}
+#benin > .twoThirdsFlagSection{
+  height: 100%;
+  width: 66.66%
+}
+#benin .section{
+  height: 50%;
+  width: 100%;
+}
 
 /* Sweden */
+#sweden{
+  position: relative;
+}
+.vertical{
+  position: absolute;
+  height: 100%;
+  width: 13%;
+  left: 30%;
+}
+
+.horizontal{
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  top: 37%;
+}
 
 /* Switzerland */
+#switzerland{
+  width: 20vmin;
+  position: relative;
+}
 
+.vertSwitz{
+  position: absolute;
+  height: 75%;
+  width: 20%;
+  left: 40%;
+  top: 12%;
+}
+
+.horSwitz{
+  position: absolute;
+  height: 20%;
+  width: 75%;
+  left: 12%;
+  top: 40%;
+}
 /* Tonga */
+#tonga{
+position: relative;
+}
 
+.tongaCorner {
+  position: absolute;
+  width: 47%;
+  height: 50%;
+}
 /* Japan */
+#japan {
+  display: flex;
+}
 
+.risingSun {
+  margin: auto;
+  border-radius: 200px;
+  height: 11vmin;
+  width: 11vmin;
+}
 /* Canada */
 
 /* Norway */
