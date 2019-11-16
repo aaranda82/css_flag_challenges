@@ -77,13 +77,65 @@ width: 33.33%;
 }
 
 /* Sweden */
+#sweden{
+  position: relative;
+}
+.vertical{
+  position: absolute;
+  height: 100%;
+  width: 13%;
+  left: 30%;
+}
+
+.horizontal{
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  top: 37%;
+}
 
 /* Switzerland */
+#switzerland{
+  width: 20vmin;
+  position: relative;
+}
 
+.vertSwitz{
+  position: absolute;
+  height: 75%;
+  width: 20%;
+  left: 40%;
+  top: 12%;
+}
+
+.horSwitz{
+  position: absolute;
+  height: 20%;
+  width: 75%;
+  left: 12%;
+  top: 40%;
+}
 /* Tonga */
+#tonga{
+position: relative;
+}
 
+.tongaCorner {
+  position: absolute;
+  width: 47%;
+  height: 50%;
+}
 /* Japan */
+#japan {
+  display: flex;
+}
 
+.risingSun {
+  margin: auto;
+  border-radius: 200px;
+  height: 11vmin;
+  width: 11vmin;
+}
 /* Canada */
 
 /* Norway */
